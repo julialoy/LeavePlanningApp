@@ -4,7 +4,9 @@
     "jsx": "preserve",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "plugins": [{ "name": "next" }],
+    "baseUrl": ".",
     "paths": {
+      "@/*": ["./src/*"],
       "@leave-planning/shared": ["../shared/src/index.ts"]
     }
   },
